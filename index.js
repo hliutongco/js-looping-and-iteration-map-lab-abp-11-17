@@ -28,3 +28,12 @@ function nameToAttributes(drivers) {
   })
   return newArray;
 }
+
+function attributesToPhrase(drivers){
+  const hometownArray=drivers.map(function (object){
+    const name=object['name']
+    const hometown=object['hometown']
+    return `${name} is from ${hometown}`
+  })
+  return hometownArray;
+}
