@@ -33,7 +33,7 @@ function attributesToPhrase(drivers){
   const hometownArray=drivers.map(function (object){
     const keysArray=Object.keys(object);
     const name=object[keysArray[0]]
-    const hometown=object['hometown']
+    const hometown=object[keysArray[1]]
     return `${name} is from ${hometown}`
   })
   return hometownArray;
