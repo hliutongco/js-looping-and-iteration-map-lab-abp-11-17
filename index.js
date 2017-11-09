@@ -1,5 +1,3 @@
-//let drivers=['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'Bobby']
-
 
 function lowerCaseDrivers(drivers) {
   const newDrivers=drivers.map(function (name){
@@ -7,8 +5,6 @@ function lowerCaseDrivers(drivers) {
   })
   return newDrivers;
 }
-
-// drivers = ['Bobby Smith', 'Sammy Watkins', 'Sally Jenkins', 'Annette Sawyer', 'Sarah Hucklebee', 'bobby ridge'];
 
 
 function nameToAttributes(drivers) {
